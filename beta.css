@@ -1,5 +1,9 @@
-p{
+*{
 	font-family: philosopher;
+}
+
+p{
+	
     margin-left: 100px;
    text-align: center;
    margin-right: 200px;
@@ -8,16 +12,48 @@ img{
 	border-radius: 50%;
 
 }
-h1{
-	font-family: philosopher;
+h1{ 
+	padding: 3px;
+	background-color: red;
 	text-align: center;
 }
 
 h2
 {
-	font-family: philosopher;
+	
 }
 a{
-	font-family: philosopher;
 	
+	
+}
+ul{
+	list-style: none;
+
+}
+li{
+	display:inline;
+	margin:100px;
+}
+header{
+	background-color: blue;
+	padding: 5px;
+}
+
+li a{
+	color: white;
+	text-decoration: none;
+
+}
+
+li a:hover{
+	color: red;
+	text-decoration: none;
+
+}
+footer{
+	background-color: navy;
+	padding: 10px;
+	color:white;
+
+
 }
